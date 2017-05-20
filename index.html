@@ -26,7 +26,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -37,7 +37,7 @@
 
 </head>
 <body>
-
+<!--PRUEBA DE WEB-->
 	<div class="wrapper">
 		<header role="header">
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -51,7 +51,7 @@
 						</button>
 
 						<a href="#" class="navbar-brand">
-							<img src="imgs/logo.png" class="img-responsive">
+							<img src="../imgs/logo.png" class="img-responsive">
 						</a>
 					</div>
 
@@ -63,7 +63,6 @@
 							<li><a href="#folio">Folio</a></li>
 							<li><a href="#testimonials">Testimonials</a></li>
 							<li><a href="#contact">Contact</a></li>
-							<li><a href="eng/index.html">Eng</a></li>
 						</ul>
 					</div>
 				</div>
@@ -124,55 +123,67 @@
 			</div>
 		</section>
 
-		<section id="folio" class="sec-folio">
-			<div class="container">
-				<h1>Previous Work</h1>
+		
+		<section id="botonera-folio" class="container">
+			<h1>Previous Work</h1>
 
-				<hr />
+			<hr />
 
-				<div class="row">
-					<div class="col-md-4">
-						<img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
+			<div class="toolbar mb2 mt2">
+				<button class="btn fil-cat" href="" data-rel="all">All</button>
+				<button class="btn fil-cat" data-rel="web">Websites</button>
+				<button class="btn fil-cat" data-rel="flyers">Flyers</button>
+				<button class="btn fil-cat" data-rel="bcards">Business Cards</button>
+			</div> 			
+		</section>	
+
+		<div style="clear:both;"></div>  
+		<div class="container">
+			<section id="folio" class="sec-folio">
+				<!--<div class="row">-->
+					<div class="col-md-4 tile scale-anm web all">
+						<img class="center-block" src="imgs/portfolio/asset01.png" alt="By Håkon Sataøen" />
 					</div>
 
-					<div class="col-md-4">
-						<img class="center-block" src="https://source.unsplash.com/EfpOiZvPbT4/450x450" alt="By Samuel Zeller" />
+					<div class="col-md-4 tile scale-anm web all">
+						<img class="center-block" src="imgs/portfolio/asset02.png" alt="By Samuel Zeller" />
 					</div>
 
-					<div class="col-md-4">
-						<img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
+					<div class="col-md-4 tile scale-anm web all">
+						<img class="center-block" src="imgs/portfolio/asset03.png" alt="By Scott Webb" />
 					</div>
-				</div>
+				<!--</div>-->
 
-				<div class="row">
-					<div class="col-md-4">
+				<!--<div class="row">-->
+					<div class="col-md-4 tile scale-anm web all">
 						<img class="center-block" src="https://source.unsplash.com/o2KD7JtqTlk/450x450" alt="By Has Bonk" />
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-4 tile scale-anm bcards all">
 						<img class="center-block" src="https://source.unsplash.com/TV2ET43jK0w/450x450" alt="By Scott Webb" />
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-4 tile scale-anm flyers all">
 						<img class="center-block" src="https://source.unsplash.com/lZ2LB1s_z7s/450x450" alt="By Daniel Lozano Valdés" />
 					</div>
-				</div>
+				<!--</div>-->
 
-				<div class="row">
-					<div class="col-md-4">
+				<!--<div class="row">-->
+					<div class="col-md-4 tile scale-anm flyers all">
 						<img class="center-block" src="https://source.unsplash.com/o4qL4FuwN6I/450x450" alt="By Anthony DELANOIX" />
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-4 tile scale-anm flyers all">
 						<img class="center-block" src="https://source.unsplash.com/ej7RYC0ED_c/450x450" alt="By Patrick Pilz" />
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-4 tile scale-anm flyers all">
 						<img class="center-block" src="https://source.unsplash.com/0G1r-Cg0zS8/450x450" alt="By Vita Vilcina" />
 					</div>
-				</div>
-			</div>
-		</section>
+				<!--</div>-->
+			</section>
+		</div>
+		<div style="clear:both;"></div>  
 
 		<section id="testimonials" class="sec-testimonials">
 			<div class="container">
